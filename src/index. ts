@@ -1,0 +1,5 @@
+import { bootstrap } from '@elizaos/plugin-bootstrap';
+
+bootstrap().then(() => {
+  console.log('Recall agent started.');
+});
