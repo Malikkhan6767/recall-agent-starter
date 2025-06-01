@@ -1,0 +1,15 @@
+{
+  "name": "recall-agent-starter",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node --loader ts-node/esm src/index.ts"
+  },
+  "dependencies": {
+    "@elizaos/core": "^0.1.9",
+    "@elizaos/plugin-bootstrap": "^0.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+} 
